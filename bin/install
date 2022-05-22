@@ -20,7 +20,7 @@ install_mongo() {
 
   if [[ "linux" = "${platform}" ]]; then
     if [[ "$(unify_version "$version")" > "$(unify_version "4.2")" ]]; then
-      filename="mongodb-linux-${arch}-rhel82-${version}.tgz"
+      filename="mongodb-linux-${arch}-rhel80-${version}.tgz"
     else
       filename="mongodb-linux-${arch}-${version}.tgz"
     fi
